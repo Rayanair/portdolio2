@@ -127,6 +127,7 @@ li {
 
 /* Styles pour le menu hamburger */
 .navbar-toggler {
+  size: 10px;
   border: none; /* Retirer la bordure du bouton de bascule */
   background-color: #ffffff; /* Couleur de fond du bouton de bascule */
 }
@@ -142,9 +143,15 @@ li {
 /* Styles pour les petits écrans */
 @media (max-width: 767px) {
   .navbar-collapse {
-    margin-top: 0.5rem; /* Marge supérieure pour le menu déroulant */
+    margin-top: 0.5rem;
+    background-color: #000000; /* Marge supérieure pour le menu déroulant */
   }
-  
+  .navbar-collapse.show .nav-link {
+    color: #ffffff !important; /* Couleur noire lorsque le menu est ouvert */
+  }
+  .nav-link{
+    font-size: 1em !important;
+  }
   .navbar-nav {
     text-align: center; /* Centre les éléments du menu */
   }
