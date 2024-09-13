@@ -20,7 +20,7 @@ const Parcours = () => {
         <div className="timeline">
                 <div
                 className="aos-item" 
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="0"
             data-aos-delay="200"
             data-aos-duration="1000"
@@ -34,7 +34,7 @@ const Parcours = () => {
             <div className="timeline">
                 <div
                 className="aos-item" 
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="0"
             data-aos-delay="200"
             data-aos-duration="1000"
@@ -47,7 +47,7 @@ const Parcours = () => {
 
             <div className="timeline">
                 <div className="aos-item" 
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="0"
                 data-aos-delay="200"
                 data-aos-duration="1000"
@@ -61,7 +61,7 @@ const Parcours = () => {
             <div className="timeline">
                 <div
                 className="aos-item" 
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="0"
             data-aos-delay="200"
             data-aos-duration="1000"
@@ -74,7 +74,7 @@ const Parcours = () => {
 
             <div className="timeline">
                 <div className="aos-item" 
-                data-aos="fade-right"
+                data-aos="fade-up"
                 data-aos-offset="0"
                 data-aos-delay="200"
                 data-aos-duration="1000"
@@ -88,7 +88,7 @@ const Parcours = () => {
             <div className="timeline">
                 <div
                 className="aos-item" 
-            data-aos="fade-left"
+            data-aos="fade-up"
             data-aos-offset="0"
             data-aos-delay="200"
             data-aos-duration="1000"
