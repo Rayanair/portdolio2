@@ -147,7 +147,8 @@ li {
     background-color: #000000; /* Marge supérieure pour le menu déroulant */
   }
   .navbar-collapse.show .nav-link {
-    color: #ffffff !important; /* Couleur noire lorsque le menu est ouvert */
+    color: #ffffff !important;
+    margin-right: 9vh; /* Couleur noire lorsque le menu est ouvert */
   }
   .nav-link{
     font-size: 1em !important;
@@ -371,7 +372,7 @@ li {
 
 /******************/
 #Projects{
-  background-color: rgb(165, 165, 165);
+  background: url("../src/media/espacecube.jpg") fixed;
   width: 100%;
   height: 1200px;
   padding: 5%;
@@ -379,19 +380,23 @@ li {
 #Projects h3{
   font-family: "VT323", sans-serif;
   font-size: 3em;
+  color: white;
 }
 #Projects h6{
   font-size: 2em;
+  color: white;
 }
 #Projects img{
-  width: 40%;
-  height: 300px;
+  width: 30%;
+  margin-top: 3%;
   margin-bottom: 3%;
-  box-shadow: 15px 15px 10px black;
+  object-fit: cover; /* Assure que l'image garde sa proportion dans le cercle */
+  border-radius: 50%;
 }
 #Projects p{
   margin: auto;
   width: 40%;
+  color: white;
 }
 .carousel .thumbs {
   display: none;
@@ -407,6 +412,20 @@ li {
 }
 .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
   opacity: 1 !important;
+}
+@media (max-width: 768px) {
+  #Projects p {
+    margin-top: 10vh;
+    font-size: 85%;
+    width: 25vh;
+  }
+  #Projects h6 {
+    margin-top: 5vh;
+  }
+
+  #Projects img{
+    width: 60%;
+  }
 }
 /*****************/
 #Hobbies {
@@ -472,70 +491,4 @@ li {
 
 
 /*****************/
-
-#Coordonne{
-  background: rgb(255, 255, 255);
-  text-align-last: center;
-  padding: 15%;
-}
-
-#Coordonne form{
-  margin: auto;
-  width: 40%;
-  display: grid;
-}
-
-#Coordonne textarea{
-  resize : none;
-  border-radius: 5px;
-  text-align-last: left !important;
-  height: 80%;
-  margin-bottom: 30%;
-  background: #343434;
-  color: white;
-  font-family: "VT323", sans-serif;
-}
-
-#Coordonne input{
-  text-align-last: left !important;
-  border-radius: 5px;
-  height: 100%;
-  border: none;
-  background: #343434;
-  color: white;
-  font-family: "VT323", sans-serif;
-  margin-bottom: 4%;
-}
-
-#Coordonne .sub{
-  text-align-last: center !important;
-  border-radius: 50px;
-  font-size: 1.5em;
-  border: none;
-  color: white;
-  font-family: "VT323", sans-serif;
-  background-color: #000;
-  margin: auto;
-  width: 20%;
-  transition: 1s;
-}
-
-#Coordonne .sub:hover{
-  box-shadow: 10px 10px 10px black;
-  transition: 1s;
-  color: rgb(0, 0, 0);
-  font-family: "VT323", sans-serif;
-  background-color: #ffffff;
-}
-
-#Coordonne h1{
-  font-family: "VT323", sans-serif;
-}
-
-/*********/
-
-
-
-
-
 
