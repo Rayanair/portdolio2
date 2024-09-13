@@ -387,11 +387,18 @@ li {
   color: white;
 }
 #Projects img{
+  transition: 1s;
   width: 30%;
   margin-top: 3%;
   margin-bottom: 3%;
   object-fit: cover; /* Assure que l'image garde sa proportion dans le cercle */
   border-radius: 50%;
+  cursor: pointer;
+}
+
+#Projects img:hover{
+  width: 31%;
+  transition: 0.5s;
 }
 #Projects p{
   margin: auto;
@@ -416,7 +423,7 @@ li {
 @media (max-width: 768px) {
   #Projects p {
     margin-top: 10vh;
-    font-size: 85%;
+    font-size:95%;
     width: 25vh;
   }
   #Projects h6 {
