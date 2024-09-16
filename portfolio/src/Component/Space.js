@@ -20,6 +20,7 @@ const Space = () => {
     
     return(
         <div className="space">
+            <h1>Cliquez</h1>
             <div className='blackhole' style={invad ? {
                 transition: "5s",
                 width: "2000px",

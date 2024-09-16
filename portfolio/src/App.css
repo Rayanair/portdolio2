@@ -58,6 +58,15 @@
   transform: rotate(270deg);
 }
 
+.space h1{
+  transform: rotate(450deg);
+  font-family: "VT323", sans-serif;
+  color: white;
+  position: absolute;
+  left: 20vh;
+  bottom: -5vh
+}
+
 .blackhole {
   background: #000;
   display: block;
